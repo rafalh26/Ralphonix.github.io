@@ -6771,7 +6771,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-image: radial-gradient(circle, rgba(195,195,195,1) 0%, rgba(255,255,255,1) 100%) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
