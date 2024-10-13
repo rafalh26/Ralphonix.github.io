@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if there are more than 3 images */
+	gap: 30px;
+}
+
+.images a {
+    max-width: 33%; /* Caps the width of each image */
+}
+
+.images img {
+    width: 100%; /* Makes images responsive */
+    height: auto;
+    display: block; /* Ensures images don't have unexpected gaps */
+}
